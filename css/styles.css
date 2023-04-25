@@ -24,3 +24,25 @@ header {
   margin: 30px;
 }
 
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 200;
+}
+
+.cta.cta-dark {
+  background-color: #060e17;
+  color: #ffffff;
+  padding: 15px 30px;
+  margin: 0 80px 15px 80px;
+  border-radius: 20px;
+}
+
+.cta.cta-light {
+  background-color: #e3f4ff;
+  color: #060e17;
+  padding: 15px 20px;
+  margin: 0 100px 30px 100px;
+  border-radius: 20px;
+}
