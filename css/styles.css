@@ -1,10 +1,26 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background-image: url("../img/bg-header.png");
+  border-top: 5px solid #060e17;
+}
+
+.box-title {
+  color: #e3f4ff;
+  font-weight: 200;
+  background-color: #000000de;
+  text-align: center;
+  padding: 37px 43px;
+  margin: 30px;
+}
+
